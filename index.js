@@ -14,5 +14,6 @@ require('tre-track-stations/bin')( kvm => {
       console.log()
     }
     console.log('EOF')
+    console.log('chmod 600 ~/.msmtprc')
   }
 })
