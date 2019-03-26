@@ -1,0 +1,28 @@
+{
+  "name": "tre-sendmail-setup",
+  "version": "1.0.0",
+  "description": "Get msmtp config from station",
+  "main": "index.js",
+  "bin": {
+    "tre-sendmail-setup": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regular/tre-sendmail-setup.git"
+  },
+  "keywords": [
+    "tre"
+  ],
+  "author": "Jan Bölsche <jan@lagomorph.de> (https://regular.codes/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/regular/tre-sendmail-setup/issues"
+  },
+  "homepage": "https://github.com/regular/tre-sendmail-setup#readme",
+  "dependencies": {
+    "tre-track-stations": "^1.0.1"
+  }
+}
